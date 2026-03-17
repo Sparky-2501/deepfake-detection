@@ -59,7 +59,7 @@ className="w-28 h-28 rounded-full mx-auto mb-4 object-cover"
 />
 
 <h3 className="text-xl font-semibold">
-AI Engineer
+Prateek Manjunath
 </h3>
 
 <p className="text-blue-400 mt-1">
@@ -83,15 +83,15 @@ className="w-28 h-28 rounded-full mx-auto mb-4 object-cover"
 />
 
 <h3 className="text-xl font-semibold">
-Backend Developer
+Vedant patke
 </h3>
 
 <p className="text-blue-400 mt-1">
-API & Integration
+Model trainer
 </p>
 
 <p className="text-gray-300 text-sm mt-3">
-Handled backend deployment and API endpoints for the detection system.
+Handled data preprocessing and model training for improved accuracy and performance.
 </p>
 
 </div>

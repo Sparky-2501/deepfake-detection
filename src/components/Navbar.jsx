@@ -8,7 +8,7 @@ return(
 
 <div className="max-w-7xl mx-auto flex justify-between items-center px-10 py-4">
 
-<Link to="/" className="text-2xl font-bold text-blue-600">
+<Link to="/" className="text-2xl font-bold text-black-600">
 DeepGuard
 </Link>
 

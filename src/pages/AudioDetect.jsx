@@ -91,7 +91,7 @@ Detect
 <div className="radar"></div>
 
 <p className="mt-6 text-blue-400 animate-pulse">
-AI analyzing audio...
+AI analyzing the data...
 </p>
 
 </div>
