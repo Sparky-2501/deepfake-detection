@@ -10,24 +10,25 @@ export default function Features(){
 
 return(
 
-<div>
+<div className="relative text-white">
 
 <NeuralBackground/>
 <Navbar/>
 
-<div className="max-w-6xl mx-auto pt-32 px-6">
+<div className="max-w-6xl mx-auto pt-32 px-6 space-y-24">
 
 <FeatureCard
 title="Image Deepfake Detection"
 text="Upload an image and our AI model analyzes pixel inconsistencies and facial artifacts to detect manipulated or AI-generated images."
 image={imageDetect}
+link="/image-detect"
 />
 
 <FeatureCard
 title="Video Deepfake Detection"
 text="Frame-by-frame analysis detects synthetic faces, lip sync mismatches and temporal inconsistencies in manipulated videos."
 image={videoDetect}
-reverse
+reverse={true}
 link="/video-detect"
 />
 

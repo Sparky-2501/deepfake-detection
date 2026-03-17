@@ -15,7 +15,7 @@ className="w-full max-w-lg rounded-xl shadow-lg"
 
 <div>
 
-<h2 className="text-3xl font-semibold mb-4">
+<h2 className="text-3xl font-semibold mb-4 text-gray-900">
 {title}
 </h2>
 
