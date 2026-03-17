@@ -23,7 +23,7 @@ formData.append("file",file)
 
 try{
 
-const response = await fetch("http://10.25.18.85:8000/detect-image",{
+const response = await fetch("http://10.25.18.85:8001/detect-image",{
 method:"POST",
 body:formData
 })
@@ -81,10 +81,14 @@ Detect
 
 <div className="flex flex-col items-center py-10">
 
-<div className="radar"></div>
+<div className="radar-wrapper">
+<div className="radar-ring"></div>
+<div className="radar-ring delay-1"></div>
+<div className="radar-ring delay-2"></div>
+</div>
 
 <p className="mt-6 text-blue-400 animate-pulse">
-Analyzing the data...
+Analyzing the image...
 </p>
 
 </div>
